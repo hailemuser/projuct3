@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png"></a>
+
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+
+        </div>
+        <div class="navbar-cenetr">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png"> <span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png"> <span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png"> <span>Job</span></a></li>
+                <li><a href="#"><img src="images/message.png"> <span>Messagimg</span></a></li>
+                <li><a href="#"><img src="images/notification.png"> <span>Notification</span></a></li>
+                
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/user.jpg" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+            
+        </div>
+        <!----------profile drop down menu------------->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/user.jpg">
+                    <div>
+                        <h3>Teddy Misganew</h3>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-manu-link">
+                    <img src="images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-manu-link">
+                    <img src="images/setting.png">
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-manu-link">
+                    <img src="images/help.png">
+                    <p>Help & Suport</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-manu-link">
+                    <img src="images/display.png">
+                    <p>Display & Accesseblity</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-manu-link">
+                    <img src="images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!----------navbar end--------------->
+
+    <div class="continer">
+        <div class="profile-main">
+            <div class="profil-container">
+                <img src="images/cover-pic.png" width="100%">
+                <div class="profile-continer-inner">
+                    <img src="images/user.jpg" class="profile-pic">
+                    <h1>Teddy Misganew</h1>
+                    <b>Web Developer at Microsoft | Former ddeveloper at DataStack
+                        and intern at Oracle
+                    </b>
+                    <p>United State & Ethiopia &middot; <a href="#">Contact Info</a></p>
+                    <div class="mutual-conection">
+                        <img src="images/user-2.png">
+                        <span>1 Mutual conection : Selomon Teteka</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primery-btn"><img src="images/connect.png">Connect</a>
+                        <a href="#"><img src="images/chat.png">Message</a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-discription">
+                <h2>About</h2>
+                <p>he sucsses of every websites depends on searce engine optimization and digital marketing strategy. 
+                If you are first page of all major serch engines then you are aheade among your competitors first page of 
+                all major serch engines then you are aheade among your competitors. </p>
+                <a href="#" class="see-more-link">See more...</a>
+            </div>
+            <div class="profile-discription">
+                <h2>Experiance</h2>
+                <div class="profile-disc-row">
+                    <img src="images/microsoft.png">
+                    <div>
+                        <h3>Lead Front-End Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Dec 2023 - Present &middot; 1.5 years</b>
+                        <p>Computer programing is the proces of performing a particular compitation,
+                         usually by desighnig and building an excutiable computer program.</p>
+                         <hr>
+                    </div>
+                </div>
+                <div class="profile-disc-row">
+                    <img src="images/slack.png">
+                    <div>
+                        <h3>Full Stack Developer</h3>
+                        <b>Slack &middot; Full-time</b>
+                        <b>Jun 2019 - June2022 &middot; 2.6 years</b>
+                        <p>Computer programing is the proces of performing a particular compitation,
+                         usually by desighnig and building an excutiable computer program.</p>
+                         <hr>
+                    </div>
+                </div>
+                <div class="profile-disc-row">
+                    <img src="images/google.png">
+                    <div>
+                        <h3>Web Developer</h3>
+                        <b>Google inc &middot; Full-time</b>
+                        <b>sep 2015 - May2018 &middot; 2.8 years</b>
+                        <p>Computer programing is the proces of performing a particular compitation,
+                         usually by desighnig and building an excutiable computer program.</p>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="ex-link">Show All 7 experiances <img src="images/right-arrow.png" alt=""></a>
+            </div>
+           
+            <div class="profile-discription">
+                <h2>Education</h2>
+                <div class="profile-disc-row">
+                    <img src="images/stanford.png">
+                    <div>
+                    <h3>Stanford University</h3>
+                    <b>BSEE, Electrical Enginering</b>
+                    <b>2018 - 2023</b>
+                    <hr>
+                    </div>
+                </div>
+                <div class="profile-disc-row">
+                    <img src="images/north.png">
+                    <div>
+                    <h3>Northwestern University</h3>
+                    <b>Computer Scince</b>
+                    <b>2015 - 2018</b>
+                    <hr>
+                    </div>
+                </div>
+                <div class="profile-disc-row">
+                    <img src="images/mit.png">
+                    <div>
+                    <h3>Harvard University</h3>
+                    <b>Senior High School</b>
+                    <b>2005 - 2015</b>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-discription">
+                <h2>Skills</h2>
+                <a href="#" class="skill-btn">Leadership</a>
+                <a href="#" class="skill-btn">Web Dedign</a>
+                <a href="#" class="skill-btn">Development</a>
+                <a href="#" class="skill-btn">Communication</a>
+                <a href="#" class="skill-btn">UI/UX</a>
+                <a href="#" class="skill-btn">Planing</a>
+                <a href="#" class="skill-btn">Coding</a><br>
+                <a href="#" class="skill-btn">JavaScript</a>
+                <a href="#" class="skill-btn">Python</a>
+                <a href="#" class="skill-btn">Enterprenuorship</a>
+            </div>
+            <div class="profile-discription">
+                <h2>Languages</h2>
+                <a href="#" class="language-btn">English</a>
+                <a href="#" class="language-btn">German</a>
+            </div>
+        </div>
+        <!----------profile sidebar------------->
+        <div class="profile-sidebar">
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the 5 principal of web disign</p>
+                <div>
+                    <img src="images/user.jpg">
+                    <img src="images/mi-logo.png">
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+            <div class="sidebar-people">
+                <h3>People you may know</h3>
+                <div class="sidebar-people-row">
+                    <img src="images/user-3.png">
+                    <div>
+                        <h2>Samual Tony</h2>
+                        <p>Head of Markaating at Alibaba</p>
+                        <a href="#">connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-4.png">
+                    <div>
+                        <h2>Benjamin Leo</h2>
+                        <p>Head of Markaating at Alibaba</p>
+                        <a href="#">connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-5.png">
+                    <div>
+                        <h2>Stive Gerg</h2>
+                        <p>Head of Markaating at Alibaba</p>
+                        <a href="#">connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-2.png">
+                    <div>
+                        <h2>Yared Desta</h2>
+                        <p>Head of Markaating at Alibaba</p>
+                        <a href="#">connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-1.png">
+                    <div>
+                        <h2>Hayle Misganew</h2>
+                        <p>Head of Markaating at Alibaba</p>
+                        <a href="#">connect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="profile-footer">
+        <div class="sidebar-useful-link">
+            <a href="#">About</a>
+            <a href="#">Accebility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Priveci Policy</a>
+            <a href="#">Advertizing</a>
+            <a href="#">Get The App</a>
+            <a href="#">More</a>
+
+            <div class="copyright-msg">
+                <img src="images/logo.png">
+                <p>Linkedup &#169; 2024. All right reserved</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+    </script>
+
+</body>
+</html>
